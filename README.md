@@ -1,7 +1,7 @@
 Chord
 =====
 
-Chord is an ES6 framework that uses [Traceur] to compile to ES5.
+Chord is an [ES6] framework that uses [Traceur] to compile to ES5.
 
 
 ES6 compatibility
@@ -30,7 +30,7 @@ Development roadmap
 
 
 
-
+[ES6]:http://tc39wiki.calculist.org/es6/
 [Traceur]:https://github.com/google/traceur-compiler
 [Traceur/ES6 compatibility table]:http://kangax.github.io/compat-table/es6/#tr
 [Jade]:http://jade-lang.com/reference/
