@@ -18,10 +18,8 @@ ES6 supports template strings. They seem flexible enough, but if they end up not
 Development roadmap
 =====
 
-- Bare bones! At first, we won't integrate with other js libraries. 
 - modules. Try using ES6 module syntax. Otherwise use requirejs.
-- make simple MVC.
-
+- source maps! Otherwise debugging will be miserable.
 
 
 
