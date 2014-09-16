@@ -4,22 +4,39 @@ Chord
 Chord is an [ES6] framework that uses [Traceur] to compile to ES5.
 
 
+Getting Started
+=====
+
+`npm install`
+
+`bower install`
+
+
+Grunt Tasks
+=====
+
+`grunt server` starts a dev server at http://localhost:8888
+
+`grunt watch` watches js / less files and compiles on the fly.
+
+`grunt`, `grunt build` builds the whole project into `dist/`
+
+
 ES6 compatibility
 =====
 
-Not all ES6 features have been implemented by Traceur. See the [Traceur/ES6 compatibility table].
+Not all ES6 features have been implemented by Traceur!! See the [Traceur/ES6 compatibility table].
 
 
 HTML Templating
 =====
 
-ES6 supports template strings. They seem flexible enough, but if they end up not working out, we can use Jade.
+ES6 supports template strings. We can add alternative templating engines on a per-project basis.
 
 
 Development roadmap
 =====
 
-- modules. Try using ES6 module syntax. Otherwise use requirejs.
 - source maps! 
 - backbone integration
 

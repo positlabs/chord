@@ -20,3 +20,8 @@ var buttonHTML = `
 document.body.innerHTML += buttonHTML;
 var $button = $('.cat-btn');
 $button.on('click', () => cat.hide());
+
+
+
+// import {BaseView} from 'views/BaseView.js';
+// console.log(BaseView);

@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 		connect: {
 			server: {
 				options: {
-					port: 8080,
+					port: 8888,
 					keepalive: true,
 					base: 'dist'
 				}
@@ -120,7 +120,7 @@ module.exports = function(grunt) {
 				]
 			}
 		},
-		
+
 
 	});
 
@@ -137,7 +137,7 @@ module.exports = function(grunt) {
 	// transpile es6 to es5, bake into a single file. Using requirejs because named module exports are broken in traceur
 	grunt.registerTask('js', ['traceur', 'concat', 'requirejs']);
 	
-	// runs a server on localhost:8080
+	// runs a server on localhost:8888
 	grunt.registerTask('server', ['connect']);
 
 	// full build
