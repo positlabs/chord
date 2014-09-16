@@ -20,8 +20,8 @@ Development roadmap
 =====
 
 - modules. Try using ES6 module syntax. Otherwise use requirejs.
-- source maps! Otherwise debugging will be miserable.
-
+- source maps! 
+- backbone integration
 
 
 
