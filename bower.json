@@ -1,0 +1,23 @@
+{
+  "name": "chord",
+  "version": "0.0.1",
+  "homepage": "https://github.com/positlabs/chord",
+  "authors": [
+    "positlabs <josh.beckwith@gmail.com>"
+  ],
+  "description": "traceur backbone",
+  "main": "src/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "backbone-amd": "~1.1.0",
+    "backbone": "~1.1.2",
+    "jquery": "~2.1.1"
+  }
+}
