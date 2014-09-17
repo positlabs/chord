@@ -10,7 +10,7 @@ console.log('running main.js');
 
 // testing module imports and classes
 import {Cat} from 'cat.js'
-var cat = new Cat(); 
+var cat = new Cat();
 
 // const and template string tests
 const buttonLabel = 'hide the cat';
@@ -21,7 +21,7 @@ document.body.innerHTML += buttonHTML;
 var $button = $('.cat-btn');
 $button.on('click', () => cat.hide());
 
-
-
-// import {BaseView} from 'views/BaseView.js';
-// console.log(BaseView);
+// testing Backbone views
+import {default as ExtendedView} from 'views/ExtendedView.js';
+var exview = new ExtendedView();
+exview.render();

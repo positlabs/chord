@@ -1,5 +1,7 @@
 
 const imgs = 'assets/imgs/'
 
-export {imgs};
+export {
+	imgs
+};
  

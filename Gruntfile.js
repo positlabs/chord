@@ -1,4 +1,10 @@
 
+/*
+
+	
+
+*/
+
 module.exports = function(grunt) {
 
 	// Project configuration.
@@ -141,7 +147,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('server', ['connect']);
 
 	// full build
-	grunt.registerTask('build', ['js', 'less', 'copy']);
+	grunt.registerTask('build', ['js', 'less', 'copy']); // or...
 	grunt.registerTask('default', ['build']);
 
 	// grunt watch will compile js and less on the fly

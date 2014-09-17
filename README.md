@@ -38,10 +38,6 @@ Development roadmap
 =====
 
 - source maps! 
-- backbone integration
-
-
-
 
 
 

@@ -1,6 +1,6 @@
 /*
     
-    You probably don't need to modify this file.
+    This is mainly to satisfy 3rd party module dependencies. You probably don't need to modify this file. 
 
     Use ES6 imports, instead.
 
